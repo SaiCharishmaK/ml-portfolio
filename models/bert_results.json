@@ -1,0 +1,23 @@
+{
+    "model_name": "distilbert-base-uncased",
+    "num_epochs": 6,
+    "best_epoch": 3,
+    "best_val_f1": 0.9483,
+    "test_accuracy": 0.9443,
+    "test_f1_macro": 0.9445,
+    "test_loss": 0.2164,
+    "training_config": {
+        "learning_rate": 2e-05,
+        "batch_size": 16,
+        "max_length": 128,
+        "optimizer": "AdamW",
+        "scheduler": "linear_warmup",
+        "warmup_ratio": 0.1
+    },
+    "per_class_accuracy": {
+        "World": 0.9416,
+        "Sports": 0.9874,
+        "Business": 0.9074,
+        "Sci/Tech": 0.9411
+    }
+}

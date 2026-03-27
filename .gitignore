@@ -50,3 +50,11 @@ logs/
 # Models (optional - uncomment if needed)
 # models/*.keras
 # models/*.h5
+
+# Large tensor files (hosted on S3)
+data/processed/*.pt
+data/processed/*.npy
+
+# Large model weights (hosted on S3)
+models/best_distilbert/model.safetensors
+models/best_distilbert/*.bin
