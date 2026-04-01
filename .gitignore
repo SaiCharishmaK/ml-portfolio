@@ -58,3 +58,5 @@ data/processed/*.npy
 # Large model weights (hosted on S3)
 models/best_distilbert/model.safetensors
 models/best_distilbert/*.bin
+models/mlflow_best/model.safetensors
+*.safetensors
